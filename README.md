@@ -1,4 +1,4 @@
-# Golang Base Project
+# URL Shortener
 
 A minimal Golang project with user authentication ready out of the box. All frontend assets should be less than 100 kB on every page load. 
 

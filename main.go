@@ -43,7 +43,7 @@ func Run() {
 	r := gin.Default()
 
 	store := cookie.NewStore([]byte(conf.CookieSecret))
-	r.Use(sessions.Sessions("golang_base_project_session", store))
+	r.Use(sessions.Sessions("url_shortener_session", store))
 
 	r.SetHTMLTemplate(t)
 
