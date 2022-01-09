@@ -2,11 +2,11 @@ package routes
 
 import (
 	"fmt"
+	email2 "github.com/ahamtat/go-url-shortener/email"
+	"github.com/ahamtat/go-url-shortener/models"
+	"github.com/ahamtat/go-url-shortener/util"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	email2 "github.com/uberswe/golang-base-project/email"
-	"github.com/uberswe/golang-base-project/models"
-	"github.com/uberswe/golang-base-project/util"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 	"log"

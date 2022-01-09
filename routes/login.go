@@ -1,11 +1,11 @@
 package routes
 
 import (
+	"github.com/ahamtat/go-url-shortener/middleware"
+	"github.com/ahamtat/go-url-shortener/models"
+	"github.com/ahamtat/go-url-shortener/util"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/uberswe/golang-base-project/middleware"
-	"github.com/uberswe/golang-base-project/models"
-	"github.com/uberswe/golang-base-project/util"
 	"golang.org/x/crypto/bcrypt"
 	"log"
 	"net/http"

@@ -1,9 +1,9 @@
 package middleware
 
 import (
+	"github.com/ahamtat/go-url-shortener/models"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/uberswe/golang-base-project/models"
 	"gorm.io/gorm"
 	"log"
 )

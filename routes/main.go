@@ -2,9 +2,9 @@
 package routes
 
 import (
+	"github.com/ahamtat/go-url-shortener/config"
+	"github.com/ahamtat/go-url-shortener/middleware"
 	"github.com/gin-gonic/gin"
-	"github.com/uberswe/golang-base-project/config"
-	"github.com/uberswe/golang-base-project/middleware"
 	"gorm.io/gorm"
 )
 

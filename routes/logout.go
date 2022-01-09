@@ -1,9 +1,9 @@
 package routes
 
 import (
+	"github.com/ahamtat/go-url-shortener/middleware"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/uberswe/golang-base-project/middleware"
 	"log"
 	"net/http"
 )

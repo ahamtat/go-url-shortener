@@ -2,11 +2,11 @@ package baseproject
 
 import (
 	"embed"
+	"github.com/ahamtat/go-url-shortener/middleware"
+	"github.com/ahamtat/go-url-shortener/routes"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
-	"github.com/uberswe/golang-base-project/middleware"
-	"github.com/uberswe/golang-base-project/routes"
 	"html/template"
 	"io/fs"
 	"log"

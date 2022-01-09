@@ -2,8 +2,8 @@ package routes
 
 import (
 	"fmt"
+	"github.com/ahamtat/go-url-shortener/models"
 	"github.com/gin-gonic/gin"
-	"github.com/uberswe/golang-base-project/models"
 	"log"
 	"net/http"
 )

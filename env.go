@@ -1,9 +1,9 @@
 package baseproject
 
 import (
+	"github.com/ahamtat/go-url-shortener/config"
+	"github.com/ahamtat/go-url-shortener/util"
 	"github.com/gorilla/securecookie"
-	"github.com/uberswe/golang-base-project/config"
-	"github.com/uberswe/golang-base-project/util"
 	"log"
 	"os"
 	"strconv"

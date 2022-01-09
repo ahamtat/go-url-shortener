@@ -4,8 +4,8 @@ package email
 import (
 	"bytes"
 	"fmt"
-	"github.com/uberswe/golang-base-project/config"
-	"github.com/uberswe/golang-base-project/util"
+	"github.com/ahamtat/go-url-shortener/config"
+	"github.com/ahamtat/go-url-shortener/util"
 	"log"
 	"mime/multipart"
 	"net/smtp"
